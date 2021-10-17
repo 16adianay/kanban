@@ -7,12 +7,12 @@ import { BrowserRouter } from "react-router-dom";
 import data from './mock.json'
 
 function App() {
-    // const initialState = JSON.parse(window.localStorage.getItem('tasks')) || [];
-    const [tasks, setTasks] = useState(data);
+    const initialState = JSON.parse(window.localStorage.getItem('tasks')) || [];
+    const [tasks, setTasks] = useState(initialState);
 
-    // useEffect(() => {
-    //     window.localStorage.setItem('tasks', JSON.stringify(tasks));
-    // }, [tasks])
+    useEffect(() => {
+        window.localStorage.setItem('tasks', JSON.stringify(tasks));
+    }, [tasks])
 
     return (
         <BrowserRouter>
