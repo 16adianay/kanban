@@ -1,1 +1,1 @@
-permalink: /index.html
+Kanban Board
