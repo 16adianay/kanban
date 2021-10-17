@@ -1,0 +1,61 @@
+.task__board {
+    background-color: white;
+    border-radius: 5px;
+    height: 550px;
+    margin:  0 auto;
+    padding-left: 20px;
+    transform: translateY(20px)
+}
+.task-date {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 10px;
+}
+.task__header,
+.error {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.error-field {
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+    transform: translateY(20px);
+}
+.giphy-embed {
+    margin: 0 auto;
+}
+
+.task-error {
+    margin: 0 auto;
+}
+
+.button-close{
+    position: relative;
+    top: 5px;
+    right: 5px;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.button-close:before,
+.button-close:after {
+    content: "";
+    position: absolute;
+    top: 21px;
+    left: 10px;
+    width: 26px;
+    height: 4px;
+    background: #0067A3;
+}
+
+.button-close:before {
+    transform: rotate(45deg);
+}
+
+.button-close:after {
+    transform: rotate(-45deg);
+}

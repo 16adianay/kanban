@@ -2,3 +2,27 @@
     width: 1235px;
     margin: 0 auto;
 }
+
+.container {
+    width: 1205px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+@media (min-width: 300px) and (max-width: 780px) {
+    .App {
+        max-width: 340px;
+    }
+    .container {
+        width: 282px;
+    }
+    .board {
+        flex-wrap: wrap;
+    }
+    .header__title {
+        display: none;
+    }
+    .header-container {
+        justify-content: flex-end;
+    }
+}

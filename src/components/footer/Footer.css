@@ -1,0 +1,35 @@
+.footer {
+    height: 55px;
+    background-color: #0067A3;
+}
+
+.footer-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+}
+
+.footer__tasks {
+    display: flex;
+}
+
+.footer__tasks-item1 {
+    margin-right: 35px;
+}
+
+@media (min-width: 300px) and (max-width: 780px) {
+    .footer-container {
+        font-size: 13px;
+    }
+    .footer__tasks {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .footer_creator {
+        display: none;
+    }
+}

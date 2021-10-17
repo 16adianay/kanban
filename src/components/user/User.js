@@ -14,8 +14,8 @@ const User = () => {
             <div className='user__drop' onClick={handleDrop}>
                 <div className='user__image'><img alt='Аватар' src={userImage}/></div>
                 {showing
-                    ?<i className='user__down-arrow'/>
-                    :<i className='user__up-arrow'/>
+                    ?<i className='user__up-arrow'/>
+                    :<i className='user__down-arrow'/>
                 }
             </div>
             {showing?

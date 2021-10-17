@@ -1,0 +1,40 @@
+.drop-down {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+}
+
+.addButton-disabled {
+    pointer-events: none;
+    border: none;
+    appearance: none;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.drop-down__btn {
+    background: #60B9CE;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    appearance: none;
+    font-size: 14px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.drop-down__option {
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+.drop-down__select {
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+@media (min-width: 300px) and (max-width: 780px) {
+    
+}

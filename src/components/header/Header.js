@@ -5,8 +5,10 @@ import User from "../user/User";
 const Header = () => {
     return (
         <header className='header'>
-            <div className='header__title'>Awesome Kanban Board</div>
-            <User/>
+            <div className='container header-container'>
+                <div className='header__title'><h4>Awesome Kanban Board</h4></div>
+                <User/>
+            </div>
         </header>
     )
 }
