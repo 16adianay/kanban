@@ -1,1 +1,1 @@
-Canban board for Skillfactory
+permalink: /index.html
