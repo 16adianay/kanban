@@ -36,5 +36,11 @@
 }
 
 @media (min-width: 300px) and (max-width: 780px) {
-
+    .drop-down__select{
+        width: 200px;
+    }
+    .drop-down__option {
+        width: 80px;
+        font-size: 12px;
+    }
 }
