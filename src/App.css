@@ -1,26 +1,26 @@
 .App {
     margin: 0 auto;
-    height: 100vh;
+
 }
 
 .container {
-    width: 1205px;
+    width: calc(100% - 40px);
     margin: 0 auto;
     height: 100%;
 }
 
-@media (min-width: 300px) and (max-width: 1200px) {
-    .container {
-        width: 282px;
-        margin: 0 auto;
-    }
+@media (min-width: 260px) and (max-width: 576px) {
     .header__title {
         display: none;
     }
     .header-container {
         justify-content: flex-end;
     }
+}
+
+@media (min-width: 577px) and (max-width: 1199px){
     .board {
+        justify-content: center;
         flex-wrap: wrap;
     }
 }

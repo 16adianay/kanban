@@ -21,7 +21,7 @@
     margin-right: 35px;
 }
 
-@media (min-width: 300px) and (max-width: 780px) {
+@media (min-width: 280px) and (max-width: 780px) {
     .footer-container {
         font-size: 13px;
     }

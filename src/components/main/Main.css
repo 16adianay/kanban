@@ -3,7 +3,7 @@
     background-color: #0079BF;
 }
 
-@media (min-width: 300px) and (max-width: 780px) {
+@media (min-width: 280px) and (max-width: 780px) {
     .main {
         min-height: 750px;
         padding-top: 50px;
