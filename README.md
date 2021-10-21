@@ -1,1 +1,1 @@
-Kanban Board (React)
+Kanban Board (React, localStorage)
