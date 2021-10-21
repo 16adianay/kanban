@@ -13,8 +13,10 @@ const TaskDesc = ({tasks, setTasks}) => {
 
     const editDesc = () => {
         if (newDescription.current.value) {
-            setTasks([tasks.find(tas => (tas.id !== taskId)),
-                {...tasks.find(tas => (tas.id === taskId)), description: newDescription.current.value}]);
+            const updatingTasks = tasks.map(task =>
+                task.id === taskId ? {...task, description: newDescription.current.value} : task
+            );
+            setTasks(updatingTasks);
         }
     }
 
