@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = ({tasks}) => {
     return (
-        <div className='footer'>
+        <footer className='footer'>
             <div className='container footer-container'>
                 <div className='footer__tasks'>
                     <div className='footer__tasks-item1'>Active tasks: {
@@ -17,7 +17,7 @@ const Footer = ({tasks}) => {
                     Kanban board by Diana Gromova, 2021
                 </div>
             </div>
-        </div>
+        </footer>
     );
 };
 

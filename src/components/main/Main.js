@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './Main.css'
 import Board from "../board/Board";
 import { Route, Switch } from "react-router-dom";
@@ -7,7 +7,7 @@ import TaskDesc from "../task-description/TaskDesc";
 const Main = ({tasks, setTasks}) => {
 
     return (
-        <div className='main'>
+        <main className='main'>
             <div className='container main-container'>
                 <Switch>
                     <Route path={'/'} exact>
@@ -18,7 +18,7 @@ const Main = ({tasks, setTasks}) => {
                     </Route>
                 </Switch>
             </div>
-        </div>
+        </main>
     );
 };
 

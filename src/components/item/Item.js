@@ -18,8 +18,8 @@ const Item = (props) => {
             }
             {tasks.map(task => {
                     return (
-                        <Link to={`/tasks/${task.id}`} className={'item__link'}>
-                            <div key={task.id} className={'task'}>
+                        <Link key={task.id} to={`/tasks/${task.id}`} className={'item__link'}>
+                            <div className={'task'}>
                                 {task.title}
                             </div>
                         </Link>

@@ -3,6 +3,7 @@ import './TaskDesc.css';
 import {formatDate} from '../../utils';
 import {Link, useRouteMatch} from "react-router-dom";
 
+
 const TaskDesc = ({tasks, setTasks}) => {
     const match = useRouteMatch();
     const { taskId } = match.params;
@@ -18,6 +19,7 @@ const TaskDesc = ({tasks, setTasks}) => {
             );
             setTasks(updatingTasks);
         }
+        setOpenEdit(false);
     }
 
     return (
@@ -32,9 +34,14 @@ const TaskDesc = ({tasks, setTasks}) => {
                     <div className={'task__description'}>
                         {task.description || "This task has no description"}
                     </div>
-                    {!openEdit &&  <button onClick={() => setOpenEdit(true)}>Редактировать описание</button>}
-                    {openEdit && <button onClick={editDesc}>Изменить описание</button>}
-                    {openEdit && <input placeholder='Введите новое описание' type='text' ref={newDescription}/>}
+                    <div className='task__edit'>
+                        {!openEdit
+                            ?<button className='task__edit-desc' onClick={() => setOpenEdit(true)}>Edit description</button>
+                            :(<>
+                                <textarea placeholder='Enter a new description'  ref={newDescription}/>
+                                <button className='task__edit-desc' onClick={editDesc}>Accept changes</button>
+                            </>)}
+                    </div>
                 </div>
             : <div className={'error-field'}>
                     <div className={'error'}>
@@ -46,6 +53,7 @@ const TaskDesc = ({tasks, setTasks}) => {
                         width="480" height="260"
                         frameBorder="0"
                         className="giphy-embed"
+                        title='gif'
                     />
                 </div>
             }

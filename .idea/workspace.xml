@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="93e3550c-a8a0-4057-aadb-ee60a4b27767" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/board/Board.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/board/Board.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item/Item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/task-description/TaskDesc.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/task-description/TaskDesc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/task-description/TaskDesc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/task-description/TaskDesc.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +70,7 @@
       <workItem from="1634844183361" duration="1369000" />
       <workItem from="1634845837180" duration="2959000" />
       <workItem from="1634849839327" duration="230000" />
+      <workItem from="1634900834208" duration="2297000" />
     </task>
     <servers />
   </component>

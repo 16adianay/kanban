@@ -1,6 +1,7 @@
 .board {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 @media (min-width: 260px) and (max-width: 576px) {
