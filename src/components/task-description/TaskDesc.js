@@ -8,7 +8,6 @@ const TaskDesc = ({tasks, setTasks}) => {
     const match = useRouteMatch();
     const { taskId } = match.params;
     const task = tasks.find(task => task.id === taskId);
-    console.log(task)
     const [openEdit, setOpenEdit] = useState(false);
     const newDescription = useRef();
 
